@@ -5,5 +5,5 @@ script:
   - gcc -o testing testing.h -c
   - gcc -o calculator calculator.c -c
   - gcc -o fact fact.c -c
-  - gcc -o test_case_calc test_case_calc.c -c
+  - gcc -o test_case_calc test_case_calc.c 
   - ./test_case_calc
