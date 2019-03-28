@@ -2,5 +2,5 @@ language: c
 sudo: false
 compiler: gcc
 script:
-  - gcc -o new1 new1.c
-  - ./new1
+  - gcc -o test_case_calc test_case_calc.c
+  - ./test_case_calc
